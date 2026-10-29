@@ -1,5 +1,5 @@
 === AI Readable ===
-Contributors: aireadable
+Contributors: urfayoresi
 Tags: llms.txt, llms, ai, seo, gptbot, claudebot
 Requires at least: 5.9
 Tested up to: 6.9
