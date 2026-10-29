@@ -92,10 +92,12 @@ class AIR_LLMS {
 			return;
 		}
 
+		$body = wp_strip_all_tags( $body, false );
+
 		status_header( 200 );
 		header( 'Content-Type: text/plain; charset=utf-8' );
 		header( 'X-Robots-Tag: index, follow', true );
-		echo esc_html( $body );
+		echo $body; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- tags stripped above, plain text.
 		exit;
 	}
 
