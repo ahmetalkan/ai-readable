@@ -44,7 +44,7 @@ class AIR_Settings {
 			'enable_head_links'  => true,
 			'enable_footer_link' => false,
 			'allow_training'     => true,
-			'footer_label'       => 'Urfa Yöresi AI Visibility',
+			'footer_label'       => 'AI Readable',
 			'footer_url'         => 'https://github.com/ahmetalkan/ai-readable',
 		);
 	}
@@ -141,7 +141,7 @@ class AIR_Settings {
 		}
 		?>
 		<div class="wrap">
-			<h1><?php esc_html_e( 'Urfa Yöresi AI Visibility', 'ai-readable' ); ?></h1>
+			<h1><?php esc_html_e( 'AI Readable', 'ai-readable' ); ?></h1>
 			<p><?php esc_html_e( 'Publishes llms.txt, llms-full.txt and ai.txt for AI engines, and adds crawler signals to robots.txt and the document head.', 'ai-readable' ); ?></p>
 			<form method="post" action="options.php">
 				<?php settings_fields( 'air_settings' ); ?>
